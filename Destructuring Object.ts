@@ -6,8 +6,6 @@ let obj = {
 
 let obj_inside_obj = { obj, 'age': '56'};
 
-let new_obj = { ...obj, 'age': '56'};  // destructuring object
-
 console.log(obj_inside_obj);
 
 /*
@@ -21,6 +19,8 @@ Will Show the following
   "age": "56"
 }
 */
+
+let new_obj = { ...obj, 'age': '56'};  // destructuring object
 
 console.log(new_obj);
 
